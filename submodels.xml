@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<PropertyList>
+
+  <submodel>
+    <name>jettison centerline fuel tank</name>
+    <model>Aircraft/F-4J/Models/Stores/Tank_600/tank.ac</model>
+    <trigger>fdm/jsbsim/systems/armament/release</trigger>
+    <trigger-once>true</trigger-once>
+    <z-offset> -2.0</z-offset>
+    <speed>0</speed>
+    <count>1</count>
+    <eda>1.0</eda>
+    <weight>250.0</weight>
+    <cd>0.3</cd>
+    <collision>false</collision>
+    <impact>false</impact>
+  </submodel>
+
+
+</PropertyList>
