@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<model>
+ 
+  <path>Aircraft/F-4J/Models/Stores/trirack.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+
+   <!-- Lower, m117 -->
+ <model>
+ <name>Lower-m117</name>
+  <path>Aircraft/DavePack/Stores/M117/bomb1.xml</path>
+  <offsets>
+   <x-m>-0.1</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.55</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+  <!-- left  m117 -->
+ <model>
+ <name>L-m117</name>
+  <path>Aircraft/DavePack/Stores/M117/bomb2.xml</path>
+  <offsets>
+   <x-m>-0.1</x-m>
+   <y-m>-0.4</y-m>
+   <z-m>-0.2</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+ 
+ <!-- right  m117 -->
+ <model>
+ <name>R-m117</name>
+  <path>Aircraft/DavePack/Stores/M117/bomb3.xml</path>
+  <offsets>
+   <x-m>-0.1</x-m>
+   <y-m>0.4</y-m>
+   <z-m>-0.2</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+</PropertyList>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">USN VX-4 "Bicentennial"</name>
+     <texture-fuselage>Liveries/76er/01F4N.jpg</texture-fuselage>
+     <texture-nose>Liveries/76er/03F4N.jpg</texture-nose>
+	 <texture-belly>Liveries/76er/02F4N.jpg</texture-belly>
+	 <texture-fuselagerear>Liveries/76er/04F4N.jpg</texture-fuselagerear>
+     <texture-luwings>Liveries/76er/05F4N.jpg</texture-luwings>
+	 <texture-llwings>Liveries/76er/06F4N.jpg</texture-llwings>
+	 <texture-ruwings>Liveries/76er/07F4N.jpg</texture-ruwings>
+     <texture-rlwings>Liveries/76er/08F4N.jpg</texture-rlwings>
+	 <texture-tail>Liveries/76er/09F4N.jpg</texture-tail>
+	  <texture-pylon>Liveries/76er/pylons.rgb</texture-pylon>
+	  <texture-370>Liveries/76er/tank.rgb</texture-370>
+	   <texture-600>Liveries/76er/tank2.rgb</texture-600>
+	  
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

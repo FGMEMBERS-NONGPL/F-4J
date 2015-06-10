@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+<model>
+ 
+  <path>Aircraft/F-4J/Models/Stores/trirack.xml</path>
+  <offsets>
+   <x-m>0</x-m>
+   <y-m>0</y-m>
+   <z-m>0</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+
+   <!-- Lower, mk82 -->
+ <model>
+ <name>Lower-mk82</name>
+  <path>Aircraft/DavePack/Stores/Mk82/bomb1.xml</path>
+  <offsets>
+   <x-m>-0.05</x-m>
+   <y-m>0</y-m>
+   <z-m>-0.5</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+  <!-- left  mk82 -->
+ <model>
+ <name>L-mk82</name>
+  <path>Aircraft/DavePack/Stores/Mk82/bomb2.xml</path>
+  <offsets>
+   <x-m>-0.05</x-m>
+   <y-m>-0.4</y-m>
+   <z-m>-0.15</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+ 
+ <!-- right  mk82 -->
+ <model>
+ <name>R-mk82</name>
+  <path>Aircraft/DavePack/Stores/Mk82/bomb3.xml</path>
+  <offsets>
+   <x-m>-0.05</x-m>
+   <y-m>0.4</y-m>
+   <z-m>-0.15</z-m>
+   <pitch-deg>0</pitch-deg>
+  </offsets>
+ </model>
+
+</PropertyList>

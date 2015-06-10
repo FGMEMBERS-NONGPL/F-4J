@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">USN VX-4 "Evaluators"</name>
+     <texture-fuselage>Liveries/vx4/01F4N.jpg</texture-fuselage>
+     <texture-nose>Liveries/vx4/03F4N.jpg</texture-nose>
+	 <texture-belly>Liveries/vx4/02F4N.jpg</texture-belly>
+	 <texture-fuselagerear>Liveries/vx4/04F4N.jpg</texture-fuselagerear>
+     <texture-luwings>Liveries/vx4/05F4N.jpg</texture-luwings>
+	 <texture-llwings>Liveries/vx4/06F4N.jpg</texture-llwings>
+	 <texture-ruwings>Liveries/vx4/07F4N.jpg</texture-ruwings>
+     <texture-rlwings>Liveries/vx4/08F4N.jpg</texture-rlwings>
+	 <texture-tail>Liveries/vx4/09F4N.jpg</texture-tail>
+	  <texture-pylon>Liveries/vx4/pylons.rgb</texture-pylon>
+	  <texture-370>Liveries/vx4/tank.rgb</texture-370>
+	   <texture-600>Liveries/vx4/tank2.rgb</texture-600>
+	   
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

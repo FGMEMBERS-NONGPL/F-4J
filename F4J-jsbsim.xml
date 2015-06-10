@@ -129,11 +129,11 @@
    <dynamic_friction> 0.50 </dynamic_friction>
    <rolling_friction> 0.02 </rolling_friction>
    <spring_coeff unit="LBS/FT">      18000.0 </spring_coeff>
-   <damping_coeff unit="LBS/FT/SEC">  7000.0 </damping_coeff>
+   <damping_coeff unit="LBS/FT/SEC"> 11000.0 </damping_coeff>
    <max_steer unit="DEG"> 60.00 </max_steer>
    <brake_group>NONE</brake_group>
    <retractable>1</retractable>
- </contact>
+  </contact>
 
   <contact type="BOGEY" name="LEFT_MAIN">
    <location unit="IN">
@@ -148,7 +148,7 @@
    <damping_coeff unit="LBS/FT/SEC"> 28500.0 </damping_coeff>
    <brake_group>LEFT</brake_group>
    <retractable>1</retractable>
- </contact>
+  </contact>
 
   <contact type="BOGEY" name="RIGHT_MAIN">
    <location unit="IN">
@@ -163,7 +163,7 @@
    <damping_coeff unit="LBS/FT/SEC"> 28500.0 </damping_coeff>
    <brake_group>RIGHT</brake_group>
    <retractable>1</retractable>
- </contact>
+  </contact>
 
   <contact type="STRUCTURE" name="LEFT_WING">
     <location unit="IN">
@@ -171,11 +171,7 @@
      <y> -19.20 </y>
      <z> -18.90 </z>
     </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <spring_coeff unit="LBS/FT">      60000.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 60000.00 </damping_coeff>
- </contact>
+  </contact>
 
   <contact type="STRUCTURE" name="RIGHT_WING">
     <location unit="IN">
@@ -183,11 +179,7 @@
      <y>  19.20 </y>
      <z> -18.90 </z>
     </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <spring_coeff unit="LBS/FT">      60000.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 60000.00 </damping_coeff>
- </contact>
+  </contact>
 
   <contact type="STRUCTURE" name="AFT_FUSELAGE">
     <location unit="IN">
@@ -195,11 +187,7 @@
      <y>   0 </y>
      <z>  20 </z>
     </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <spring_coeff unit="LBS/FT">      40000.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 40000.00 </damping_coeff>
- </contact>
+  </contact>
 
   <contact type="STRUCTURE" name="FWD_FUSELAGE">
     <location unit="IN">
@@ -207,11 +195,8 @@
      <y>   0 </y>
      <z> -30 </z>
     </location>
-    <static_friction>  0.80 </static_friction>
-    <dynamic_friction> 0.50 </dynamic_friction>
-    <spring_coeff unit="LBS/FT">      40000.00 </spring_coeff>
-    <damping_coeff unit="LBS/FT/SEC"> 40000.00 </damping_coeff>
- </contact>
+  </contact>
+
 
  </ground_reactions>
 
@@ -225,8 +210,6 @@
     </location>
     <feed>0</feed>
     <feed>1</feed>
-    <feed>2</feed>
-    <feed>3</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 190 </x>
@@ -249,8 +232,6 @@
     </location>
     <feed>0</feed>
     <feed>1</feed>
-    <feed>2</feed>
-    <feed>3</feed>
     <thruster file="direct">
      <location unit="IN">
        <x> 190 </x>
@@ -272,6 +253,7 @@
        <y>  0   </y>
        <z> -6.0 </z>
      </location>
+     <type>JP-5</type>
      <capacity unit="LBS"> 13160.00 </capacity>
      <contents unit="LBS"> 13000.00 </contents>
      <standpipe unit="LBS"> 2000.00 </standpipe>
@@ -285,31 +267,36 @@
        <y>   0.00 </y>
        <z> -20.00 </z>
      </location>
+     <type>JP-5</type>
      <capacity unit="LBS"> 3950.00 </capacity>
      <contents unit="LBS"> 3800.00 </contents>
   </tank>
 
-  <!-- Left 370 gallon drop tank -->
+  <!-- Left 370 gallon drop tank
   <tank type="FUEL" number="2">
      <location unit="IN">
        <x>      0 </x>
        <y> -139.0 </y>
        <z>  -30.0 </z>
      </location>
+     <type>JP-5</type>
      <capacity unit="LBS"> 2440.00 </capacity>
      <contents unit="LBS">    0.00 </contents>
   </tank>
+  -->
 
-  <!-- Right 370 gallon drop tank -->
+  <!-- Right 370 gallon drop tank 
   <tank type="FUEL" number="3">
      <location unit="IN">
        <x>      0 </x>
        <y>  139.0 </y>
        <z>  -30.0 </z>
      </location>
+     <type>JP-5</type>
      <capacity unit="LBS"> 2440.00 </capacity>
      <contents unit="LBS">    0.00 </contents>
   </tank>
+  -->
 
   <dump-rate unit="LBS/MIN"> 2500 </dump-rate>
 
@@ -327,12 +314,12 @@
  <system file="NWS"/>
  <system file="alpha_buffet"/>
  <system file="dump"/>
- <system file="crash-detect"/>
+<!-- <system file="crash-detect"/> -->
  <system file="radar"/>
  <system file="beacon"/>
  <system file="canopy"/>
- <system file="chute"/>
- <system file="over-g"/>
+ <system file="chute"/> 
+<!-- <system file="over-g"/> -->
  <system file="particles"/>
  <system file="armament"/>
  <system file="cat_workaround"/>
@@ -345,8 +332,7 @@
  <system file="ab_workaround"/>
 
 
- <flight_control name="FCS">
- </flight_control>
+ <flight_control name="FCS"/>
 
 
  <aerodynamics>
@@ -358,8 +344,8 @@
             <tableData>
               -0.20 -0.64
                0.00  0.08
-               0.26  0.96
-               0.40  0.88
+               0.26  1.00
+               0.40  0.95
                0.60  0.40
                1.30  0.05
             </tableData>
@@ -437,7 +423,7 @@
             <tableData>
              -1.57    1.500
              -0.26    0.031
-              0.00    0.019
+              0.00    0.020
               0.26    0.031
               1.57    1.500
             </tableData>
@@ -449,7 +435,7 @@
        <description>Induced_drag_coefficient</description>
          <product>
            <property>aero/cl-squared</property>
-           <value>0.15</value>
+           <value>0.14</value>
          </product>
     </function>
 
@@ -460,11 +446,11 @@
           <table>
             <independentVar lookup="row">velocities/mach</independentVar>
             <tableData>
-                0.00      0.0000
-                0.81      0.0000
-                1.10      0.0200
-                1.40      0.0110
-                2.00      0.0040
+                0.00      0.000
+                0.81      0.000
+                1.10      0.018
+                1.40      0.009
+                2.00      0.004
             </tableData>
           </table>
         </product>
@@ -520,7 +506,7 @@
        <description>Drag_coefficient_due_to_braking_chute</description>
          <product>
            <property>systems/chute/unfurl-norm</property>
-           <value>1.03</value>
+           <value>0.6</value>
          </product>
     </function>
 
@@ -741,7 +727,7 @@
 
   </axis>
 
-    <function name="aero/qSbw">
+    <function name="aero/yqSbw">
        <description>Yaw_moment_dimensionalizer</description>
        <product>
            <property>aero/qbar-area</property>
@@ -749,10 +735,10 @@
        </product>
     </function>
 
-    <function name="aero/qSbwr">
+    <function name="aero/yqSbwr">
        <description>Yaw_moment_yaw_rate_dimensionalizer</description>
        <product>
-           <property>aero/qSbw</property>
+           <property>aero/yqSbw</property>
            <property>aero/bi2vel</property>
            <property>velocities/r-aero-rad_sec</property>
        </product>
@@ -798,11 +784,11 @@
              <property>aero/coefficient/Cndr</property>
              <property>aero/coefficient/Cnda</property>
            </sum>
-           <property>aero/qSbw</property>
+           <property>aero/yqSbw</property>
          </product>
          <product>
             <property>aero/coefficient/Cnr</property>
-            <property>aero/qSbwr</property>
+            <property>aero/yqSbwr</property>
          </product>
        </sum>
     </function>

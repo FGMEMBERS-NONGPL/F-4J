@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Blue Angels</name>
+     <texture-fuselage>Liveries/blueangels/01F4N.jpg</texture-fuselage>
+     <texture-nose>Liveries/blueangels/03F4N.jpg</texture-nose>
+	 <texture-belly>Liveries/blueangels/02F4N.jpg</texture-belly>
+	 <texture-fuselagerear>Liveries/blueangels/04F4N.jpg</texture-fuselagerear>
+     <texture-luwings>Liveries/blueangels/05F4N.jpg</texture-luwings>
+	 <texture-llwings>Liveries/blueangels/06F4N.jpg</texture-llwings>
+	 <texture-ruwings>Liveries/blueangels/07F4N.jpg</texture-ruwings>
+     <texture-rlwings>Liveries/blueangels/08F4N.jpg</texture-rlwings>
+	 <texture-tail>Liveries/blueangels/09F4N.jpg</texture-tail>
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>

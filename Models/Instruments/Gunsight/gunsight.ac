@@ -2,23 +2,23 @@ AC3Db
 MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 0  trans 0.404
 MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.7 0.7 0.7  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.4 0.4 0.4  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.4 0.4 0.4  emis 0 0 0  spec 0 0 0  shi 76  trans 0.894
+MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.6 0.6 0.6  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat14" rgb 0.8 0.8 0.8  amb 0.6 0.6 0.6  emis 0 0 0  spec 0 0 0  shi 76  trans 0.894
 MATERIAL "ac3dmatpipper" rgb 1 1 1  amb 1 1 1  emis 1 1 1  spec 0 0 0  shi 0  trans 0
 OBJECT world
 kids 7
 OBJECT poly
-name "noshadow.glass"
+name "glass"
 loc -0.0649704 0.0817933 0.000422044
 crease 45.000000
 numvert 8
 -0.042167 -0.0508245 -0.06706
-0.0717389 0.0628716 -0.06706
-0.0717389 0.0628716 0.071562
+0.049098 0.0981648 -0.06706
+0.049098 0.0981648 0.071562
 -0.042167 -0.0508245 0.0720623
 -0.0466665 -0.0466172 0.0720623
-0.0672395 0.0670788 0.071562
-0.0672395 0.0670788 -0.06706
+0.0439327 0.100374 0.071562
+0.0439327 0.100374 -0.06706
 -0.0466665 -0.0466172 -0.06706
 numsurf 6
 SURF 0x20
@@ -65,8 +65,8 @@ refs 4
 3 0 1
 kids 0
 OBJECT poly
-name "noshadow.pipper"
-loc 0.00343893 -0.0147732 -0.000753796
+name "pipper"
+loc 0.00410484 0.0244673 -0.000753796
 texture "piper.png"
 crease 45.000000
 numvert 4

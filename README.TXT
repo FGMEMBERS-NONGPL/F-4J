@@ -1,6 +1,26 @@
+FGUK's McDonnell Douglas F-4J Phantom II
+-------------------------------------------
+
+This aircraft requires the DAVE PACK available HERE
+
+V0.7
+-----
+
+* HD pilots fitted.
+* More YASIM FDM Tweaks. ( No more sliding around while parked )
+* For FG versions earlier than 3.2 you need to edit  some lines at the start of  F-4J-yasim-set to change back to the old FDM.
+* MP Back seat WSO available for the YASIM version - Currently as a passenger only.
+* Added basic instruments to the back seat.
+* MP Afterburner effect added.
+* Added Pilot Cam and Over the shoulder Cam.
+* Yasim version has a number of pre set load out options available in the F4J Menu.
+* Help file  updated.
+
+
+****
+
 NOTE:
 
-License:  Creative Commons, CC-BY-NC-SA
 
 CARRIER OPS:
 

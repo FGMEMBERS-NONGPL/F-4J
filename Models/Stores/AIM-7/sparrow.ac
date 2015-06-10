@@ -1,13 +1,13 @@
 AC3Db
-MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.7 0.7 0.7  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat0" rgb 0 0 0  amb 0.5 0.5 0.5  emis 0 0 0  spec 0 0 0  shi 10  trans 0
-MATERIAL "ac3dmat1" rgb 1 1 1  amb 0.7 0.7 0.7  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat0" rgb 0 0 0  amb 0 0 0  emis 0 0 0  spec 0 0 0  shi 10  trans 0
+MATERIAL "ac3dmat1" rgb 1 1 1  amb 1 1 1  emis 0 0 0  spec 0 0 0  shi 10  trans 0
 OBJECT world
 kids 3
 OBJECT poly
 name "body"
 loc -0.0664019 -0.00105339 -0.000123661
-texture "aim7.png"
+texture "aim7.rgb"
 crease 45.000000
 numvert 62
 1.82954 -9.54606e-09 -1.33005e-08
@@ -557,7 +557,7 @@ kids 0
 OBJECT poly
 name "fins-fwd"
 loc -0.141992 0 0
-texture "aim7.png"
+texture "aim7.rgb"
 crease 45.000000
 numvert 32
 0.209735 0.513461 0.00138306
@@ -805,7 +805,7 @@ kids 0
 OBJECT poly
 name "fins-aft"
 loc 1.55304 0 0
-texture "aim7.png"
+texture "aim7.rgb"
 crease 45.000000
 numvert 32
 0.17732 0.0405406 0

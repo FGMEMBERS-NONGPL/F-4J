@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim>
+    <model>
+      <livery>
+        <name type="string">Kurnass</name>
+     <texture-fuselage>Liveries/Kurnass/01F4N.jpg</texture-fuselage>
+     <texture-nose>Liveries/Kurnass/03F4N.jpg</texture-nose>
+	 <texture-belly>Liveries/Kurnass/02F4N.jpg</texture-belly>
+	 <texture-fuselagerear>Liveries/Kurnass/04F4N.jpg</texture-fuselagerear>
+     <texture-luwings>Liveries/Kurnass/05F4N.jpg</texture-luwings>
+	 <texture-llwings>Liveries/Kurnass/06F4N.jpg</texture-llwings>
+	 <texture-ruwings>Liveries/Kurnass/07F4N.jpg</texture-ruwings>
+     <texture-rlwings>Liveries/Kurnass/08F4N.jpg</texture-rlwings>
+	 <texture-tail>Liveries/Kurnass/09F4N.jpg</texture-tail>
+	 <texture-pylon>Liveries/Kurnass/pylons.jpg</texture-pylon>
+	  <texture-370>Liveries/Kurnass/tank.png</texture-370>
+	   <texture-600>Liveries/Kurnass/tank2.png</texture-600>
+	 
+
+   <specular>
+              <red>   0.3 </red>
+              <green> 0.3 </green>
+              <blue>  0.3 </blue>
+            </specular>
+
+            <emission>
+              <red>   0.2 </red>
+              <green> 0.2 </green>
+              <blue>  0.2 </blue>
+            </emission>
+
+      </livery>
+    </model>
+  </sim>
+
+</PropertyList>
